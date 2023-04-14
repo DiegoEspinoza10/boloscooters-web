@@ -18,16 +18,13 @@ function Navbar() {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768); // Update isMobile state based on window width
+      setIsMobile(window.innerWidth <= 768); 
     }
 
-    // Add event listener for window resize
     window.addEventListener('resize', handleResize);
 
-    // Initial check for mobile resolution on component mount
     setIsMobile(window.innerWidth <= 768);
 
-    // Cleanup the event listener on component unmount
     return () => {
       window.removeEventListener('resize', handleResize);
     }
