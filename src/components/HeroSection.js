@@ -5,7 +5,7 @@ import '../App.css'
 function HeroSection() {
   return (
     <div className='hero-container'>
-        <h1>BIENVENIDOS A BOLO SCOOTERS</h1>
+        <h1>BIENVENIDO A BOLO SCOOTERS</h1>
         <p>¿Qué estás esperando?</p>
     </div>
   )
