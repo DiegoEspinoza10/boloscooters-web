@@ -6,7 +6,7 @@ function HeroSection() {
   return (
     <div className='hero-container'>
         <h1>BIENVENIDO A BOLO SCOOTERS</h1>
-        <p>¿Qué estás esperando?</p>
+        <p>Promoteres de movilidad sostenible</p>
     </div>
   )
 }
