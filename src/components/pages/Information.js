@@ -1,11 +1,9 @@
 import React from 'react'
-import '../HeroSection.css'
 import '../../App.css'
-import HeroSection from '../HeroSection';
-import Cards from '../Cards';
 import { useEffect } from 'react';
+import Info from '../Info';
 
-function Home(){
+function Information(){
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -13,10 +11,10 @@ function Home(){
 
     return(
         <>
-        <HeroSection />
-        <Cards />
+            <h1 className='Information'>Informacion</h1>
+            <Info />
         </>
     );
 }
 
-export default Home
+export default Information
