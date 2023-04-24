@@ -6,7 +6,8 @@
 }
 
 .home,
-.Information
+.Information,
+.Contact
 {
   display: flex;
   height: 90vh;
@@ -18,6 +19,16 @@
 
 .Information {
   background-image: url('../public/Images/Fondo2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 60px; 
+  padding: 20px; 
+}
+
+.Contact {
+  background-image: url('../public/Images/Fondo.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
