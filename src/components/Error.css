@@ -1,0 +1,48 @@
+/* ErrorPage.css */
+
+.error-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8f9fa; /* Set your desired background color */
+  }
+  
+  .error-page-title {
+    font-size: 48px;
+    margin-bottom: 16px;
+    color: #dc3545;
+  }
+  
+  .error-page-text {
+    font-size: 24px;
+    margin-bottom: 24px;
+    color: #343a40;
+    text-align: center;
+  }
+  
+  .error-page-image {
+    max-width: 300px;
+    margin-bottom: 24px;
+  }
+  
+  .error-page-link {
+    font-size: 18px;
+    color: #007bff; 
+  }
+  
+  @media (max-width: 768px) {
+    .error-page-title {
+      font-size: 36px;
+    }
+  
+    .error-page-text {
+      font-size: 20px;
+    }
+  
+    .error-page-image {
+      max-width: 200px;
+    }
+  }
+  
