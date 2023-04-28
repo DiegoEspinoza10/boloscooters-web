@@ -7,15 +7,13 @@
 
 .home,
 .Information,
-.Contact
-{
+.Contact {
   display: flex;
-  height: 90vh;
+  min-height: 100vh;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
 }
-
 
 .Information {
   background-image: url('../public/Images/Fondo2.jpg');
@@ -23,8 +21,17 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 60px; 
-  padding: 20px; 
+  padding: 20px;
+}
+
+.Information h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.Information p {
+  font-size: 30px;
+  margin-bottom: 10px;
 }
 
 .Contact {
@@ -32,7 +39,51 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Contact h1 {
   color: #fff;
-  font-size: 60px; 
-  padding: 20px; 
+  font-size: 60px;
+  padding: 10px;
+}
+
+.Contact p {
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .home,
+  .Information,
+  .Contact {
+    flex-direction: column;
+    font-size: 2rem;
+    padding: 10px;
+  }
+
+  .Information h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  .Information p {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .Contact h1 {
+    font-size: 40px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+
+  .Contact p {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
 }
