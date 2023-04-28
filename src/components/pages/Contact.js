@@ -9,10 +9,11 @@ function Contact(){
       }, []);
 
     return(
-        <>
-            <h1 className='Contact'>Contactanos</h1>
-            
-        </>
+        <div className='Contact'>
+            <h1>Contactanos</h1>
+            <p>No dudes en contacarnos</p>
+            <p>+506 8815-4221</p>
+        </div>
     );
 }
 
