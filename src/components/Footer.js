@@ -42,6 +42,10 @@ function Footer() {
                         <FontAwesomeIcon icon={faInstagram} size="2x" />
                         </a>
                 </div>
+                <div class="footer-number">
+                    <h2>Telefono</h2>
+                    <p>+506 8815-4221</p>
+                </div>
             </div>
         </div>
     </section>

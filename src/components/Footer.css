@@ -37,6 +37,9 @@
     height: 250px;
     margin-bottom: 2rem;
   }
+  .footer-link-items h2{
+    margin-bottom: 0.5rem;
+  }
   a.social {
     margin: 0 1rem;
     transition: transform 250ms;
@@ -53,6 +56,12 @@
   }
   a.WhatsApp {
     color: #25D366;
+  }
+  .footer-number{
+    margin-top:1.5rem
+  }
+  .footer-number h2{
+    margin-bottom: 0.5rem;
   }
   
   @media (max-width: 768px) {
