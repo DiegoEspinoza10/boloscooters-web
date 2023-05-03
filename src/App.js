@@ -1,4 +1,6 @@
 import './App.css';
+import React from 'react';
+import {Helmet} from "react-helmet";
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Route, BrowserRouter,Routes } from 'react-router-dom';
 import Home from './components/pages/Home';
@@ -10,6 +12,12 @@ import Footer
 function App() {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Bolo Scooters</title>
+        <meta name="description" content="Bolo Scooters" />
+        <meta name="keywords" content="Bolo Scooters" />
+      </Helmet>
     <BrowserRouter>
       <Navbar />
       <Routes>
