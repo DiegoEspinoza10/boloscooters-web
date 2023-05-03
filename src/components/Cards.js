@@ -11,13 +11,13 @@ function Cards() {
                 <ul className='cards__items'>
                     <CardProducts
                     src='images/Bici.jpg'
-                    text='Bici motos electricas 350 y 500 watts, sistema de alarma, luz delantera y trasera. Canasta para transportar objetos'
+                    text='Bici motos eléctricas 350 y 500 watts cuentan con sistema de alarma, luz delantera y trasera. Canasta de transporte de objetos.'
                     label='Bici motos'
                     path='/products'
                     />
                     <CardProducts
                     src='images/scooter.jpg'
-                    text='Mono patines electricos de 350 watts, 3 velocidades con velocidad maxima de 33 km/h, bateria de litio' 
+                    text='Mono patines eléctricos de 350 watts, 3 velocidades con velocidad máxima de 33 km/h, batería de litio, llantas rellenas y luces delanteras, traseras y de freno.' 
                     label='Monopatin electrico'
                     path='/products'
                     />
@@ -25,13 +25,13 @@ function Cards() {
                 <ul className='cards__items'>
                     <CardProducts
                     src='images/Tocha.jpg'
-                    text='Scooter de 2000 watts con velocidad maxima de 60 km/h, 2 baterias de litio de 20 amperios, sistema de alarma, luz delantera y trasera'
+                    text='Scooter de 2000 watts con velocidad máxima de 60 km/h, 2 baterías de litio de 20 amperios, sistema de alarma, canasta trasera, sistema de frenos de disco y luz delantera y trasera'
                     label='Scooter electrico'
                     path='/products'
                     />
                     <CardProducts
                     src='images/bat12ah.jpg'
-                    text='Baterias de 12 voltios 12 amperios, 12 voltios 20 amperios. Acido de plomo ' 
+                    text='Baterías de 12 voltios 12 amperios, 12 voltios 20 amperios. Ácido de plomo ' 
                     label='Baterias para bici motos'
                     path='/products'
                     />
@@ -45,7 +45,7 @@ function Cards() {
                 <ul className='cards__items'>
                 <CardProducts
                     src='images/llantas.jpg'
-                    text='Repuestos para scooters y bicis motos electricas. Baterias, llantas, frenos, etc.' 
+                    text='Todo en repuestos para scooters y bici motos eléctricas. Baterías, llantas, frenos, suspensiones, etc.' 
                     label='Repuestos'
                     path='/products'
                     />
