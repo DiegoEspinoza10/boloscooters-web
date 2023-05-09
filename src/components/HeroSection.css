@@ -1,5 +1,5 @@
 .hero-container{
-    background: url('../../public/Images/Fondo3.jpg') center center/cover no-repeat;
+    background: url('../../public/Images/Fondo.jpg') center center/cover no-repeat;
     width: 100%;
     flex-direction: column;
     box-shadow: 0 0  0 1000px rgba(0,0,0,0.2);
